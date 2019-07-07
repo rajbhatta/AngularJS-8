@@ -9,3 +9,7 @@ Learn Angular JS from
 
 https://www.guru99.com/angularjs-tutorial.html
 
+
+https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ/playlists
+
+

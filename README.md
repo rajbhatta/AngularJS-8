@@ -6,5 +6,6 @@ This repository contains the list of angular project such as :
 
 ===============
 Learn Angular JS from 
+
 https://www.guru99.com/angularjs-tutorial.html
 

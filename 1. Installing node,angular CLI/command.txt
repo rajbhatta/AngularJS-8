@@ -1,0 +1,10 @@
+============================= Installing Node.js ============================
+1. goto www.nodejs.org and download either zip or installer
+2. check node version by typing node -v
+
+
+===================== Installing Angular JS =================================
+1.goto command prompt and type npm install -g @angular/cli
+2. ng new my-dream-app
+3. cd my-dream-app
+4. ng serve

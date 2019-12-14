@@ -1,0 +1,7 @@
+================== command to create a project ========================
+ng new first-project
+
+=========================== Running angular project =================
+ng serve
+
+

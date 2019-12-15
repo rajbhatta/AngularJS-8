@@ -2,6 +2,7 @@
 ng new first-project
 
 =========================== Running angular project =================
+cd first-project
 ng serve
 
 

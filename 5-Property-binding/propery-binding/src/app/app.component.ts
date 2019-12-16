@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: `<div>
+  template: `<div>
                   <h2>Working with Property Binding</h2>
                   <input type="text" [id]="carName" />
                   <input type="text" class="calculator-screen" [value]="currentNumber" disabled />

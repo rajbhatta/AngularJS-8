@@ -4,8 +4,23 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `<div>
   
-  <h2>Testing style binding in Angular JS 8 </h2>
-  <h2 >Testing class binding by HTML attribute </h2>
+  <p [style.background-color]="'green'"> Style Binding in Angular JS 8 
+
+  <p [ngStyle]="myStyles">
+ Style Binding using ngStyle="value" method
+</p>
+
+
+<p [ngStyle]="{'background-color': 'lime',
+    'font-size': '20px',
+    'font-weight': 'bold'}">
+  Style Binding using inline and ngStyle 
+</p>
+
+<p [ngStyle]="setMyStyles()">
+ Style binding using return method
+</p>
+
   
 <div>`,
   styles: []
@@ -13,4 +28,19 @@ import { Component } from '@angular/core';
 export class AppComponent 
 {
   title = 'style-binding-exm';
+
+  setMyStyles()
+  {
+    let styles = {
+      'background-color':  'red',
+      'font-weight': 'bold'
+    };
+    return styles;
+  }
+
+  myStyles={
+    'background-color': 'lime',
+    'font-size': '20px',
+    'font-weight': 'bold'
+  }
 }

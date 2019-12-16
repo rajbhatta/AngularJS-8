@@ -5,6 +5,10 @@
 
 ===================== Installing Angular JS =================================
 1.goto command prompt and type npm install -g @angular/cli
+
+======================= Creating a Angular JS Tutorial ======================
 2. ng new my-dream-app
 3. cd my-dream-app
+
+======================= Running a Angular JS Tutorial
 4. ng serve

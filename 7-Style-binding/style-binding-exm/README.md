@@ -4,6 +4,8 @@ Sample 1: <p [style.background-color]="'darkorchid'">
   Quite something!
 </p>
 
+
+
 Sample 2: NgStyle for multiple values
 Simple style binding is great for single values, but for applying multiple styles the easiest way is to use NgStyle:
 
@@ -18,6 +20,9 @@ myStyles = {
 'font-weight': 'bold'
 }
 
+
+
+
 Sample 3: it could be provided inline like this:
 
 <p [ngStyle]="{'background-color': 'lime',
@@ -25,6 +30,9 @@ Sample 3: it could be provided inline like this:
     'font-weight': 'bold'}">
   You say tomato, I say tomato
 </p>
+
+
+
 
 Sample 4: Or the object can be the return value of a method:
 

@@ -15,13 +15,13 @@
           id="email"
           name="email"
           #name="ngModel">```
+          
 4. Goto UserComponent.ts and include
-```
-import { User } from '../model/user';
+
+```import { User } from '../model/user';
 
 user: User;
 
 constructor() {
     this.user = new User();
-  }
-  ```
+  }```

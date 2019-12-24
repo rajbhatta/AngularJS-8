@@ -7,7 +7,7 @@ First, navigate inside your project’s root folder:
 
 Next, install Bootstrap 4 and jQuery from npm:
 
-$ npm install --save bootstrap jquery
+2. $ npm install --save bootstrap jquery
 
 modify angular.json as given below:
 

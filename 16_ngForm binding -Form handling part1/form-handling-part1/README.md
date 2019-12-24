@@ -1,7 +1,8 @@
 ## Form Handling in Angular 8 ##
+1. Make a modification inside  ```app.module.ts```
 ```
-1. import { FormsModule } from '@angular/forms'; // inside app.module.ts
-2. imports: [                                    // Add forms module
+1.1 import { FormsModule } from '@angular/forms'; 
+1.2 imports: [                                    // Add forms module
     BrowserModule,
     FormsModule
   ],

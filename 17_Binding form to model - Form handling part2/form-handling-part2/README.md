@@ -1,3 +1,5 @@
+## Form Handling in Angular JS 8: Part 2: Binding form to Model
+
 1. Type ```ng generate class User``` in Angular CLI
 2. Put class properties as given below:
 ```
@@ -7,7 +9,8 @@
 } 
 ```
 
-3. put ```[(ngModel)]="user.email"``` inside each HTML element as  ```<input type="text" [(ngModel)]="user.email" 
+3. put ``` [(ngModel)]="user.email" ``` inside each HTML element as 
+ ```<input type="text" [(ngModel)]="user.email" 
           class="form-control"
           id="email"
           name="email"

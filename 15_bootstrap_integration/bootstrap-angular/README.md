@@ -1,6 +1,7 @@
-Major steps to integrate Bootstrap to Angular 8 Project
+# Heading 1 # Major steps to integrate Bootstrap to Angular 8 Project
 First, navigate inside your project’s root folder:
 
+Markup :  `code()`
 $ cd bootstrap-angular
 
 

@@ -1,14 +1,14 @@
 ### Major steps to integrate Bootstrap to Angular 8 Project
 First, navigate inside your project’s root folder:
-
+```
  1. $ cd bootstrap-angular
-
+```
 
 
 Next, install Bootstrap 4 and jQuery from npm:
-
+```
 2. $ npm install --save bootstrap jquery
-
+```
 modify angular.json as given below:
 ```
 "styles": [

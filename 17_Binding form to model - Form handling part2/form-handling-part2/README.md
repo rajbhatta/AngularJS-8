@@ -18,7 +18,7 @@
           
   
 4. Goto UserComponent.ts and include
-```import { User } from '../model/user';
+```import { User } from './models/user';
 user: User;
 constructor() {
     this.user = new User();

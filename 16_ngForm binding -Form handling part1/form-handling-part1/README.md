@@ -7,8 +7,8 @@
     FormsModule
   ],
 ```
-3. Write template reference variable inside ```<form #userForm="ngForm">```
-4. Provide name and ngModel for each element ``` <input type="email" class="form-control" name="email" ngModel>```
+2. Write template reference variable inside ```<form #userForm="ngForm">```
+3. Provide name and ngModel for each element ``` <input type="email" class="form-control" name="email" ngModel>```
 
 
 

@@ -1,4 +1,4 @@
-## Form Handling in Angular 8: Part 1##
+## Form Handling in Angular 8: Part 1
 1. Make a modification inside  ```app.module.ts```
 ```
 1.1 import { FormsModule } from '@angular/forms'; 

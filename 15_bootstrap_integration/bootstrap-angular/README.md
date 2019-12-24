@@ -11,7 +11,7 @@ Next, install Bootstrap 4 and jQuery from npm:
 ```
 modify angular.json as given below:
 ```
-"styles": [
+3. "styles": [
       "src/styles.css", 
         "node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],

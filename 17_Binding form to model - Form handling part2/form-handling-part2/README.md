@@ -15,8 +15,8 @@
           id="email"
           name="email"
           #name="ngModel"> ```
-          
-  
+
+
 4. Goto UserComponent.ts and include
 ```import { User } from './models/user';
 user: User;

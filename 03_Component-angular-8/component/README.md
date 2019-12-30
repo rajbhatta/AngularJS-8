@@ -21,9 +21,9 @@ where first home.component.html represents view or HTML elements, home.component
 import { Component } from '@angular/core';
 
 @Component({
-**  selector: 'app-root',
+**selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] **
+  styleUrls: ['./app.component.css']**
 })
 export class AppComponent {
   title = 'service-demo';
@@ -36,13 +36,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-**  template: `
+**template: `
   <h3>Employee List </h3>
   <ul *ngFor="let employee of employees">
 	  <li>{{employee.id}} || {{employee.name}} || {{employee.age}}
   </ul> 
   `,
-  styles: ['h3{color:red;}'] **
+  styles: ['h3{color:red;}']**
 })
 export class AppComponent {
   title = 'service-demo';

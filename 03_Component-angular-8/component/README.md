@@ -1,27 +1,15 @@
-# Component
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Working with component in Angular JS 8 ##
+1. How to create component using Angular CLI in visual studio
+1.1 Goto your project by typing CD project_name
+1.2 Then type command given below in visual studio code terminal
+```
+ng g component home
+```
+This command will create 
+```
+CREATE src/app/home/home.component.html (19 bytes)  
+CREATE src/app/home/home.component.spec.ts (614 bytes)  
+CREATE src/app/home/home.component.ts (261 bytes)  
+CREATE src/app/home/home.component.css (0 bytes)  
+```
+where first home.component.html represents view or HTML elements, home.component.css represents css for home.component.html and home.component.ts represents all the logic such as binding to model

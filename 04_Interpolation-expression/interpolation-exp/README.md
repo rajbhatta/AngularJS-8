@@ -3,3 +3,22 @@ String Interpolation is a one-way databinding technique which is used to output 
 
 For example:
 {{ data }}
+
+Let us consider the content of app.component.ts as given below:
+```
+import { Component } from '@angular/core';    
+@Component({    
+  selector: 'app-root',    
+  templateUrl: './app.component.html',    
+  styleUrls: ['./app.component.css']    
+})    
+export class AppComponent {    
+  title = 'Data binding example using String Interpolation';    
+}   
+```
+Let us consider the content of  app.component.html
+```
+<h2>    
+  {{ title }}    
+</h2>  
+```

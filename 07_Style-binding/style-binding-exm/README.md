@@ -1,12 +1,14 @@
-Style Binding & NgStyle in Angular 2
-
-Sample 1: <p [style.background-color]="'darkorchid'">
+## Style Binding & NgStyle in Angular 8 ##
+**Sample 1:**
+```
+<p [style.background-color]="'darkorchid'">
   Quite something!
 </p>
+```
 
-
-
-Sample 2: NgStyle for multiple values
+**Sample 2:**
+```
+NgStyle for multiple values
 Simple style binding is great for single values, but for applying multiple styles the easiest way is to use NgStyle:
 
 <p [ngStyle]="myStyles">
@@ -19,23 +21,22 @@ myStyles = {
 'font-size': '20px',
 'font-weight': 'bold'
 }
-
-
-
-
-Sample 3: it could be provided inline like this:
-
+```
+**Sample 3:**
+it could be provided inline like this:
+```
 <p [ngStyle]="{'background-color': 'lime',
     'font-size': '20px',
     'font-weight': 'bold'}">
   You say tomato, I say tomato
 </p>
+```
 
 
 
-
-Sample 4: Or the object can be the return value of a method:
-
+**Sample 4:**
+Or the object can be the return value of a method:
+```
 <p [ngStyle]="setMyStyles()">
   You say tomato, I say tomato
 </p>
@@ -47,6 +48,6 @@ setMyStyles() {
   };
   return styles;
 }
-
+```
 
 More Info: https://alligator.io/angular/style-binding-ngstyle-angular/

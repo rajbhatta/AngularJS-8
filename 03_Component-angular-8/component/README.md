@@ -1,6 +1,8 @@
 ## Working with component in Angular JS 8 ##
 1. How to create component using Angular CLI in visual studio
+
 1.1 Goto your project by typing CD project_name
+
 1.2 Then type command given below in visual studio code terminal
 ```
 ng g component home

@@ -9,17 +9,24 @@
 } 
 ```
 
-3. put ``` [(ngModel)]="user.email"``` inside each HTML element as 
- ```<input type="text" [(ngModel)]="user.email" 
+3. put 
+``` 
+[(ngModel)]="user.email" 
+``` 
+inside each HTML element as 
+ ```
+ <input type="text" [(ngModel)]="user.email" 
           class="form-control"
           id="email"
           name="email"
-          #name="ngModel"> ```
+          #name="ngModel"> 
+```
 
 
 4. Goto UserComponent.ts and include
-```import { User } from './models/user';
+```
+import { User } from './models/user';
 user: User;
 constructor() {
     this.user = new User();
-  }```
+  ```

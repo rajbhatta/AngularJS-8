@@ -8,17 +8,17 @@ The Angular provides the three ways to add/remove classes to and from the elemen
 The ClassName is the property name of HTML Element. Hence we can make use of Property binding to assign the class name to any HTML element.
 
 The following example assigns CSS Class red to the div element.
-```
+```html
 <div [className]="'red'">Test</div>
 ```
  
 ### 2. HTML Class attribute ###
 You can also add class using the normal HTML way.
-```
+```html
 <div class="red">red</div>
 ```
 but, mixing both class and [className] results in removal of class attribute. You cannot use both.
-```
+```html
 <div class="red" [className]="'size20'">red</div>
 ```
 
@@ -26,16 +26,16 @@ but, mixing both class and [className] results in removal of class attribute. Yo
 We can also bind the class name dynamically.
 
 To do that first create a variable in your component class.
-```
+```css
 cssStringVar: string= 'red size20';
 ``` 
 And then use it in the Template as shown below.
-```
+```html
 <div [className]="cssStringVar">Test</div>
 ```
 
 ### Example of Class Binding in Angular JS 8 ###
-```
+```jss
 import { Component } from '@angular/core';
 
 @Component({

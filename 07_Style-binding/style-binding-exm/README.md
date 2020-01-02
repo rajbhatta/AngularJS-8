@@ -8,6 +8,7 @@
 
 **Sample 2:**
 NgStyle for multiple values
+
 Simple style binding is great for single values, but for applying multiple styles the easiest way is to use NgStyle:
 ```html
 <p [ngStyle]="myStyles">

@@ -5,7 +5,7 @@ For example:
 {{ data }}
 
 Let us consider the content of app.component.ts as given below:
-```
+```js
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    

@@ -6,7 +6,7 @@ For example:
 <img [src]="imgUrl" />
 
 Open app.componnt.ts file and add the following code:
-```
+```js
 import { Component } from '@angular/core';    
 @Component({    
   selector: 'app-root',    
@@ -20,6 +20,6 @@ export class AppComponent {
 ```
 
 Now, open app.component.html and use the following code for property binding:
-```
+```html
 <img [src]="imgUrl" /> <!-- Property Binding -->   
 ```

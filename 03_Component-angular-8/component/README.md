@@ -17,7 +17,7 @@ CREATE src/app/home/home.component.css (0 bytes)
 where first home.component.html represents view or HTML elements, home.component.css represents css for home.component.html and home.component.ts represents all the logic such as binding to model
 
 ### Dissecting home.component.ts element inside component (Option 1) ###
-```
+```js
 import { Component } from '@angular/core';
 
 @Component({
@@ -31,7 +31,7 @@ export class AppComponent {
 ```
 
 ### Dissecting home.component.ts element inside component (Option 2) ###
-```
+```js
 import { Component } from '@angular/core';
 
 @Component({
